@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="main.js" async></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,700;1,300&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Calculator by MJ</h1>
+    <div class="calculator">
+        
+        <div class="display">
+            <p id="eqLine"></p>
+            <p id="output"></p>
+        </div>
+        <div class="btns">
+            <button id=plus-minus>+/-</button>
+            <button class = "operation" id="exp">^</button>
+            <button id="backspace">C</button>
+            <button id="clear">CA</button>
+            <button class="digit" id="seven">7</button>
+            <button class="digit" id="eight">8</button>
+            <button class="digit" id="nine">9</button>
+            <button class = "operation" id="divide">/</button>
+            <button class="digit" id="four">4</button>
+            <button class="digit" id="five">5</button>
+            <button class="digit" id="six">6</button>
+            <button class = "operation" id="multiply">*</button>
+            <button class="digit" id="three">3</button>
+            <button class="digit" id="two">2</button>
+            <button class="digit" id="one">1</button>
+            <button class="operation" id="subtract">-</button>
+            <button class="digit" id="zero">0</button>
+            <button id="decimal">.</button>
+            <button class = "operation" id="mod">%</button>
+            <button class = "operation" id = "add">+</button>
+        </div>
+        <button id="enter">=</button>
+    </div>
+
+    <div class="lightdark">
+        <p>Light</p>
+        <label class="switch">
+            <input type="checkbox" onclick="switchColor()">
+            <span class="slider round"></span>
+        </label>
+        <p>Dark</p>
+    </div>
+</body>
+</html>
